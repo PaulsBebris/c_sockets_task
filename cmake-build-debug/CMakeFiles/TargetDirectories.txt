@@ -1,3 +1,0 @@
-/home/beaver/Coding/C/sockets/cmake-build-debug/CMakeFiles/sockets.dir
-/home/beaver/Coding/C/sockets/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/beaver/Coding/C/sockets/cmake-build-debug/CMakeFiles/rebuild_cache.dir
