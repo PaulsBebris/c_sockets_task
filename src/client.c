@@ -1,11 +1,8 @@
 #include <netinet/in.h>
-#include <sys/types.h>
 #include <sys/socket.h>
-#include <netdb.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <string.h>
 #include <arpa/inet.h>
 
 int main(int argc, char *argv[]){
@@ -16,7 +13,6 @@ int main(int argc, char *argv[]){
     puts("Error creating socket");
     exit(EXIT_FAILURE);
   }
-  printf("File descriptor: %d\n",fd);
   puts("1. Socket created ...");
 
   // connect to socket server
@@ -45,9 +41,6 @@ int main(int argc, char *argv[]){
   }
   puts("Data received \n");
   puts(data);
-
-
-
 
   close(fd);
   return 0;
