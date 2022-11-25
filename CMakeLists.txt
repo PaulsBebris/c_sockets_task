@@ -5,5 +5,5 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(src)
 
-add_executable(sockets src/client.c)
+add_executable(sockets src/server.c)
 
